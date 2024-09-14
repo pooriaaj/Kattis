@@ -1,1 +1,7 @@
-width = int(input()); pieces = int(input()); print(int(sum(map(lambda x: x[0] * x[1], (map(int, input().split()) for _ in range(pieces)))) / width))
+width = int(input())
+pieces = int(input())
+s = 0
+for _ in range(pieces):
+    newWidth, newHeight = map(int, input().split())
+    s += newWidth * newHeight
+print(int(s / width))
