@@ -1,5 +1,5 @@
-probabilities = [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]
-num_hotels = int(input())
-space_indices = set(map(int, input().split()))
-total_chance = sum(probabilities[index - 2] for index in space_indices)
-print(total_chance / 36)
+probs = [1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1]
+hotels = int(input())
+spaces = map(lambda x: probs[int(x) - 2], input().split())
+chance = sum(spaces)
+print(chance / 36)
