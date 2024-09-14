@@ -1,1 +1,2 @@
-print('correct!' if (a := map(int, input().split()))[0] + a[1] == a[2] else 'wrong!')
+a, b, c = map(int, input().split())
+print('correct!') if (a + b) == c else print('wrong!')
