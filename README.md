@@ -8,12 +8,12 @@ Getting Started
 To use the solutions, follow these steps:
 
 1. Clone the Repository:
-  git clone https://github.com/pooriaaj/Kattis.git
+git clone https://github.com/pooriaaj/Kattis.git
 2. Navigate to the Repository Directory:
-  cd Kattis
+cd Kattis
 3. Run a Solution:
 Navigate to the specific problem directory within solutions and run the corresponding Python script:
-  python problem_name.py
+python problem_name.py
 Replace problem_name.py with the actual filename of the solution you want to run.
 
 Contributing
